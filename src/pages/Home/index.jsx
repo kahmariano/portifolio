@@ -1,24 +1,45 @@
+import briefcase from '../../assets/briefcase.svg'
+import github from '../../assets/github.svg'
+import globe from '../../assets/globe.svg'
+import linkedin from '../../assets/linkedin.svg'
+import mail from '../../assets/mail.svg'
+import map_pin from '../../assets/map_pin.svg'
+import kah from '../../assets/kah.jpg'
+
 export function Home() {
   return (
     <>
       <div>
-        <img src="" alt="imagem karina" />
+        <img src={kah} alt="imagem karina" />
         <h1>Karina Mariano</h1>
         <h3>Futura desenvolvedora</h3>
       </div>
       <div>
         <p>
-          brasil <img src="" alt="icone de localizaçao" />
+          <img src={map_pin} alt="icone de localizaçao" /> brasil
         </p>
         <p>
-          Rocketseat <img src="" alt="icone de predio" />
+          <img src={briefcase} alt="icone de predio" />
+          Rocketseat
         </p>
-        <a href="" src="">
+        <a href="">
+          <img src={github} alt="icone github" />
           kahmariano
         </a>
-        <a href="">mysite</a>
         <p>
-          kmariano...@gmail.com <img src="" alt="icone de email" />
+          <a href="">
+            <img src={linkedin} alt="icone linkedim" />
+            kahmariano
+          </a>
+        </p>
+        <br />
+        <a href="">
+          <img src={globe} alt="icone de globo" />
+          mysite
+        </a>
+        <p>
+          <img src={mail} alt="icone de email" />
+          kmariano...@gmail.com
         </p>
       </div>
     </>
