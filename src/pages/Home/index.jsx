@@ -33,7 +33,7 @@ export function Home() {
           </a>
         </p>
         <br />
-        <a href="">
+        <a href="https://my-site-rouge.vercel.app/">
           <img src={globe} alt="icone de globo" />
           mysite
         </a>
