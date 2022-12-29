@@ -27,7 +27,7 @@ export function Home() {
         </Profile>
         <PersonalData>
           <p>
-            <img src={map_pin} alt="icone de localizaçao" /> brasil
+            <img src={map_pin} alt="icone de localizaçao" /> Brasil
           </p>
           <p>
             <img src={briefcase} alt="icone de predio" />
@@ -43,24 +43,53 @@ export function Home() {
               kahmariano
             </a>
           </p>
-          <br />
           <a href="https://my-site-rouge.vercel.app/">
             <img src={globe} alt="icone de globo" />
             mysite
           </a>
           <p>
             <img src={mail} alt="icone de email" />
-            kmariano...@gmail.com
+            kmariano138@gmail.com
           </p>
         </PersonalData>
         <Technologies>
           <h2>Tecnologias</h2>
+          <div>
+            <p>JavaScript</p>
+            <p>Reactjs</p>
+            <p>Nodejs</p>
+            <p>Git</p>
+            <p>GitHub</p>
+            <p>HTML</p>
+            <p>CSS</p>
+          </div>
         </Technologies>
         <Experience>
           <h2>Experiências</h2>
+          <ul>
+            <li>
+              Barbearia
+              <dd>2020 - Atualmente </dd>
+              <dd>Salao de beleza A Casa Préo</dd>
+            </li>
+            <li>
+              Desenvolvimento
+              <dd>2022 - Atualmente</dd>
+              <dd>Projetos pessoais</dd>
+            </li>
+          </ul>
         </Experience>
         <Education>
           <h2>Educação</h2>
+          <ul>
+            <li>
+              Barbearia <dd>2018 - 2020 </dd>
+              <dd>Curso de cabelereira e barbeira</dd>
+            </li>
+            <li>
+              Rocketseat <dd>2022 - atualmente</dd> <dd>Discover</dd>
+            </li>
+          </ul>
         </Education>
       </LeftSide>
       <RightSide>

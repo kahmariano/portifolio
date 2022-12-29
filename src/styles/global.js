@@ -6,5 +6,6 @@ export default createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
    background-color: ${({ theme }) => theme.color.bodyColor}; 
+   font-family: 'Merriweather Sans', sans-serif;
 
 }`
