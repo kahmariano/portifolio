@@ -13,7 +13,8 @@ import {
   Experience,
   Education,
   RightSide,
-  LeftSide
+  LeftSide,
+  MyProjects
 } from './style'
 
 export function Home() {
@@ -93,7 +94,10 @@ export function Home() {
         </Education>
       </LeftSide>
       <RightSide>
-        <h2>My Projects</h2>
+        <MyProjects>
+          <h2>My Projects</h2>
+          <p>Veja todos</p>
+        </MyProjects>
       </RightSide>
     </HomeWrapper>
   )

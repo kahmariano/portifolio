@@ -125,6 +125,21 @@ export const Education = styled.div`
     margin: 0 0 0 1rem;
   }
 `
-export const RightSide = styled.div`
-  background: #cb92b1;
+// export const RightSide = styled.div`
+//   background: #cb92b1;
+// `
+export const MyProjects = styled.div`
+  background: ${({ theme }) => theme.color.bg_cards};
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  h2,
+  p {
+    background: ${({ theme }) => theme.color.bg_cards};
+    color: ${({ theme }) => theme.color.text_color};
+  }
 `
