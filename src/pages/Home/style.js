@@ -125,9 +125,9 @@ export const Education = styled.div`
     margin: 0 0 0 1rem;
   }
 `
-// export const RightSide = styled.div`
-//   background: #cb92b1;
-// `
+export const RightSide = styled.div`
+  background: #cb92b1;
+`
 export const MyProjects = styled.div`
   background: ${({ theme }) => theme.color.bg_cards};
   padding: 1rem;

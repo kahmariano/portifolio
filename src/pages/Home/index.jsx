@@ -5,6 +5,10 @@ import linkedin from '../../assets/linkedin.svg'
 import mail from '../../assets/mail.svg'
 import map_pin from '../../assets/map_pin.svg'
 import kah from '../../assets/kah.jpg'
+import arquivos from '../../assets/arquivos.svg'
+import gitbranch from '../../assets/gitbranch.svg'
+import ellipse from '../../assets/ellipse.svg'
+import star from '../../assets/star.svg'
 import {
   Profile,
   HomeWrapper,
@@ -98,6 +102,24 @@ export function Home() {
           <h2>My Projects</h2>
           <p>Veja todos</p>
         </MyProjects>
+        <div>
+          <p>
+            <img src={arquivos} alt="icone de arquivo" /> my-project
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a
+            culpa similique ipsa totam repellat deserunt dicta non aliquid, hic
+            doloremque, saepe omnis quisquam eius distinctio tenetur perferendis
+            odio sed?
+          </p>
+          <p>
+            <img src={star} alt="icone de estrela de pontuação" /> 100
+            <img src={gitbranch} alt="icone de cabos" /> 100
+          </p>
+          <p>
+            <img src={ellipse} alt="icone de circulo" /> JavaScript
+          </p>
+        </div>
       </RightSide>
     </HomeWrapper>
   )
