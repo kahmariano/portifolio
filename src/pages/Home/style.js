@@ -126,7 +126,7 @@ export const Education = styled.div`
   }
 `
 export const RightSide = styled.div`
-  background: #cb92b1;
+  gap: 1rem;
 `
 export const MyProjects = styled.div`
   background: ${({ theme }) => theme.color.bg_cards};
@@ -136,10 +136,64 @@ export const MyProjects = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  margin: 0 0 1rem 1rem;
   h2,
   p {
     background: ${({ theme }) => theme.color.bg_cards};
     color: ${({ theme }) => theme.color.text_color};
   }
 `
+export const Cards = styled.div`
+  /* background: ${({ theme }) => theme.color.bodyColor}; */
+  /* color: ${({ theme }) => theme.color.text_color}; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  gap: 1rem;
+  margin: 0 0 0 1rem;
+  border-radius: 2rem;
+`
+export const Card = styled.div`
+  background: ${({ theme }) => theme.color.bg_cards};
+
+  div {
+    background: ${({ theme }) => theme.color.bg_cards};
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  p,
+  img {
+    background: ${({ theme }) => theme.color.bg_cards};
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+`
+
+// export const Card = styled.div`
+//   background: ${({ theme }) => theme.color.bg_cards};
+//   color: ${({ theme }) => theme.color.text_color};
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   padding: 1rem;
+//   /* gap: 1rem; */
+//   margin: 0 0 0 1rem;
+//   border-radius: 2rem;
+
+//   div {
+//     background: ${({ theme }) => theme.color.bg_cards};
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//   }
+
+//   p,
+//   img {
+//     background: ${({ theme }) => theme.color.bg_cards};
+//     display: flex;
+//     align-items: center;
+//     gap: 0.5rem;
+//   }
+// `
