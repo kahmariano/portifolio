@@ -151,11 +151,10 @@ export const Cards = styled.div`
   padding: 1rem;
   gap: 1rem;
   margin: 0 0 0 1rem;
-  border-radius: 2rem;
 `
 export const Card = styled.div`
   background: ${({ theme }) => theme.color.bg_cards};
-
+  border-radius: 2rem;
   div {
     background: ${({ theme }) => theme.color.bg_cards};
     display: flex;
